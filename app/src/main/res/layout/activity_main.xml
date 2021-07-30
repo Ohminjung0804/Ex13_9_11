@@ -7,6 +7,11 @@
     android:orientation="vertical"
     android:padding="20dp"
     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SeekBar1의 진행률: "/>
 
     <SeekBar
         android:layout_marginTop="20dp"
@@ -14,6 +19,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/seek1"
         android:progress="10"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SeekBar2의 진행률: "/>
     <SeekBar
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"

@@ -37,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 Thread thread2 = new Thread(){
                     @Override
                     public void run() {
-                        for(int i = seek1.getProgress(); i < 100; i++){
-                            seek1.setProgress(seek1.getProgress()+1);
+                        for(int i = seek2.getProgress(); i < 100; i++){
+                            seek2.setProgress(seek2.getProgress()+1);
                             SystemClock.sleep(100);
                         }
                     }
